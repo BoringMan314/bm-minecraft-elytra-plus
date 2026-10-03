@@ -1,0 +1,8 @@
+# 鞘翅 PLUS 總開關。
+enabled: true
+
+# 遊戲內管理指令是否需要 OP。
+admin-require-op: true
+
+# 鐵砧結合消耗的經驗等級。
+anvil-cost: 1

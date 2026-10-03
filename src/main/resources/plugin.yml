@@ -1,0 +1,19 @@
+name: bm-minecraft-elytra-plus
+version: "26.3_0.0.1"
+main: bm.minecraft.elytra.plus.BmMinecraftElytraPlusPlugin
+api-version: '26.3'
+description: "鞘翅 PLUS。"
+authors:
+  - "[B.M] 圓周率™3.14"
+website: "http://exnormal.com:81/"
+commands:
+  bm-minecraft-elytra-plus:
+    description: 管理 bm-minecraft-elytra-plus。
+    usage: /bm-minecraft-elytra-plus [0|1|info|status|reload]
+permissions:
+  bm-minecraft-elytra-plus.use:
+    description: 允許結合、分離與淨化鞘翅。
+    default: true
+  bm-minecraft-elytra-plus.admin:
+    description: 允許管理 bm-minecraft-elytra-plus。
+    default: op
